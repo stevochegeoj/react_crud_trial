@@ -1,0 +1,17 @@
+.App {
+  background-color: #1a1d24;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px 15px;
+  border-radius: 5px;
+  min-height: calc(100vh - 100px);
+  position: relative;
+}
+
+.App h2 {
+  margin: 0 auto 30px;
+  text-align: center;
+  font-size: 30px;
+}
+
+

@@ -1,0 +1,39 @@
+.add-course-form {
+  margin-bottom: 30px;
+}
+
+.add-course-form .text-input {
+  display: inline-block;
+  border: 1px solid #3c3f43;
+  padding: 8px 12px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  width: calc(100% - 102px);
+  background-color: #13161c;
+  color: #ffffff;
+}
+
+.add-course-form .text-input:focus {
+  outline: none;
+}
+
+.add-course-form .submit-button {
+  border: 1px solid #0092da;
+  padding: 8px 12px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  width: 102px;
+  background-color: #0092da;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.add-course-form .submit-button:focus {
+  outline: none;
+}
+
+.add-course-form .submit-button:hover {
+  background-color: #25b3f5;
+}

@@ -1,0 +1,43 @@
+.footer {
+  position: absolute;
+  bottom: 15px;
+  width: calc(100% - 30px);
+  padding: 20px 15px 0;
+  border-top: 1px solid #3c3f43;
+}
+
+.footer .footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.footer .footer-container .copyright .author {
+  color: #0092da;
+  font-weight: 600;
+}
+
+.footer .footer-container .links a {
+  font-size: 18px;
+  transition: 0.3s;
+  color: #ffffff;
+}
+
+.footer .footer-container .links a:hover {
+  color: #0092da;
+}
+
+.footer .footer-container .links i {
+  padding: 0 6px;
+}
+
+@media (max-width: 576px) {
+  .footer .footer-container {
+    flex-direction: column;
+  }
+
+  .footer .footer-container .copyright {
+    margin-bottom: 15px;
+  }
+}

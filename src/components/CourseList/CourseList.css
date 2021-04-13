@@ -1,0 +1,126 @@
+.courses-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.courses-list li:not(:last-of-type) {
+  margin-bottom: 10px;
+}
+
+.courses-list li:last-of-type {
+  margin-bottom: 60px;
+}
+
+.courses-list .course-item-render .course-name {
+  display: inline-block;
+  border-bottom: 1px solid #3c3f43;
+  border-left: 1px solid #3c3f43;
+  padding: 8px 12px;
+  border-radius: 3px;
+  width: calc(100% - (102px * 2 + 20px));
+  background-color: #13161c;
+  font-size: 15px;
+}
+
+.courses-list .course-item-render button {
+  padding: 8px 12px;
+  border-radius: 3px;
+  width: 102px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.courses-list .course-item-render button:focus {
+  outline: none;
+}
+
+.courses-list .course-item-render .course-delete {
+  background-color: #dc3545;
+  border: 1px solid #dc3545;
+}
+
+.courses-list .course-item-render .course-delete:hover {
+  background-color: #dc5363;
+}
+
+.courses-list .course-item-render .course-edit {
+  margin: 0 10px;
+  background-color: #ff7400;
+  border: 1px solid #ff7400;
+}
+
+.courses-list .course-item-render .course-edit:hover {
+  background-color: #ff943f;
+}
+
+.courses-list .course-item-update .edit-course-form .text-input {
+  display: inline-block;
+  border: 1px solid #3c3f43;
+  padding: 8px 12px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  width: calc(100% - 102px);
+  background-color: #13161c;
+  color: #ffffff;
+}
+
+.courses-list .course-item-update .edit-course-form .text-input:focus {
+  outline: none;
+}
+
+.courses-list .course-item-update .edit-course-form .submit-button {
+  border: 1px solid #0092da;
+  padding: 8px 12px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  width: 102px;
+  background-color: #0092da;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.courses-list .course-item-update .edit-course-form .submit-button:focus {
+  outline: none;
+}
+
+.courses-list .course-item-update .edit-course-form .submit-button:hover {
+  background-color: #25b3f5;
+}
+
+.no-courses-notice {
+  margin: 0;
+  text-align: center;
+  background-color: #13161c;
+  border: 1px solid #3c3f43;
+  padding: 30px;
+  border-radius: 3px;
+}
+
+@media (max-width: 576px) {
+  .courses-list .course-item-render .course-name {
+    display: block;
+    width: 100%;
+  }
+
+  .courses-list .course-item-render button {
+    margin: 15px auto 25px;
+    width: calc(50% - 10px);
+  }
+
+  .courses-list .course-item-render .course-edit {
+    margin-right: 10px;
+  }
+
+  .courses-list li.course-item-update {
+    margin-bottom: 25px;
+  }
+
+  .courses-list li.course-item-update:last-of-type {
+    margin-bottom: 80px;
+  }
+}
