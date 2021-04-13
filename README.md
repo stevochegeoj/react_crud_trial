@@ -8,7 +8,7 @@
 ### Goal
 
 This is ReactJS CRUD application. I coded this project to practice on my knowledge of HTML, CSS, JavaScript, and ReactJS
-in a real project.
+in a real project. The aim is to learn the responsive behaviour on various devices.
 
 
 
